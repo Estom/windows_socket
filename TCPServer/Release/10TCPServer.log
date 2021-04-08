@@ -1,0 +1,35 @@
+﻿  TCPClient.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+TCPClient.cpp(76): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(2218): note: 参见“gethostbyname”的声明
+TCPClient.cpp(85): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1848): note: 参见“inet_ntoa”的声明
+TCPClient.cpp(169): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(2679): note: 参见“WSAAsyncSelect”的声明
+TCPClient.cpp(212): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1848): note: 参见“inet_ntoa”的声明
+TCPClient.cpp(216): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1830): note: 参见“inet_addr”的声明
+TCPClient.cpp(218): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(2196): note: 参见“gethostbyaddr”的声明
+TCPClient.cpp(260): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(2679): note: 参见“WSAAsyncSelect”的声明
+TCPClient.cpp(327): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1848): note: 参见“inet_ntoa”的声明
+TCPClient.cpp(331): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1830): note: 参见“inet_addr”的声明
+TCPClient.cpp(333): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(2196): note: 参见“gethostbyaddr”的声明
+TCPClient.cpp(458): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1848): note: 参见“inet_ntoa”的声明
+TCPClient.cpp(462): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1830): note: 参见“inet_addr”的声明
+TCPClient.cpp(464): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(2196): note: 参见“gethostbyaddr”的声明
+TCPClient.cpp(626): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1848): note: 参见“inet_ntoa”的声明
+TCPClient.cpp(630): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(1830): note: 参见“inet_addr”的声明
+TCPClient.cpp(632): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\WinSock2.h(2196): note: 参见“gethostbyaddr”的声明
+  10TCPServer.vcxproj -> C:\Users\不懂逍遥\Desktop\final 工程\10TCPServer\.\Release\10TCPServer.exe

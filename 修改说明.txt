@@ -1,0 +1,69 @@
+过程完善，首先改好服务器，再想客户端。
+
+
+多线程实现UDP接受。
+	肯定要以函数为单位进行多线程的实现。
+
+
+
+服务器群发消息，客户端多线程实现UDP接受
+
+
+最好可以实现文件传输
+
+
+
+tcp过程
+	首先初始化CWinAPP函数的一些东西，包括初始化唯一的窗口变量
+
+	*点击开始OnStart函数触发，取得端口号，设置了控件状态
+
+	OnStart调用CreateAndListen函数，创建了服务器Socket服务，并采用异步消息监听模式
+
+	OnSocket负责接收TCP异步消息进行处理。接受Socket请求，关闭Socket请求，读取Socket数据流
+
+	其中由辅助函数AddClient RemoveClient UpdateClientList实现连接列表的控制。
+
+	由副主函数CloseAllSocket进行关闭连接，AddStringToList用来显示数据
+
+	#发送部分首先由OnBnClickedButtonSelect函数对发送对象列表进行控制
+
+	由OnBnClickedButtonSend函数实现内容发送到发送对象列表
+
+
+UDP过程
+	*点击开始OnBnClickedButtonUdp函数触发，取得端口号，设置了控件状态。
+
+	OnBnClickedButtonUdp使用多线程调用了udpRec函数，实现了多线程启动udp接受服务。
+
+	udpRec函数负责接受同步的UDP消息，并对消息进行显示和处理。
+
+	其中由辅助函数AddUDPClient RemoveUDPClient对UDP用户列表实现控制
+
+	由副主函数CloseUDPSocket进行关闭连接
+
+	#发送部分首先OnBnClickedButtonUdpSedn对UDP用户列表遍历发送数据包
+
+UDP客户端过程：
+	*点击开始OnBnClickedButtonUdp函数触发，取得端口号，设置了控件状态。
+
+	OnBnClickedButtonUdp使用多线程调用了udpRec函数，实现了多线程启动udp接受服务。
+
+	udpRec函数负责接受同步的UDP消息，并对消息进行显示和处理。
+
+	由副主函数CloseUDPSocket进行关闭连接
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

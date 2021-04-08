@@ -1,0 +1,126 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDIALOG DIALOGEX 0, 0, 436, 287
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TCP服务器"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "服务器设置",IDC_STATIC,9,8,264,40
+    LTEXT           "TCP Port",IDC_STATIC,14,27,42,8
+    EDITTEXT        IDC_PORT,55,26,24,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "开启服务",IDC_START,88,25,50,14
+    LISTBOX         IDC_INFO,9,76,264,119,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "传输信息显示：",IDC_STATIC,21,59,57,8
+    PUSHBUTTON      "清空信息",IDC_CLEAR,206,56,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,9,50,264,145,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1,109,215,91,51,ES_AUTOHSCROLL
+    PUSHBUTTON      "TCP发送",IDC_BUTTON_SEND,209,215,50,22
+    GROUPBOX        "用户列表",IDC_STATIC,278,14,137,249
+    LISTBOX         IDC_LIST_USER,288,50,115,168,LBS_SORT | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "主机 | IP地址 | 端口号",IDC_STATIC,289,36,81,8
+    PUSHBUTTON      "选择",IDC_BUTTON_SELECT,289,230,49,23
+    PUSHBUTTON      "刷新",IDC_BUTTON_UPDATE,356,228,48,23
+    LTEXT           "对方列表",IDC_STATIC,15,202,82,8
+    LISTBOX         IDC_LIST_USER_SELECT,14,215,82,51,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "消息区域",IDC_STATIC,109,201,31,8
+    PUSHBUTTON      "UDP发送",IDC_BUTTON_UDP_SEDN,210,243,48,23
+    LTEXT           "UDP Port",IDC_STATIC,141,28,33,8
+    EDITTEXT        IDC_EDIT_UDP,181,25,23,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "开启服务",IDC_BUTTON_UDP,209,25,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 429
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 280
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAIN                ICON                    "network computer.ico"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
